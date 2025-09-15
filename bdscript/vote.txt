@@ -1,0 +1,9 @@
+$nomention
+$addCmdReactions[🔼;🔽]
+$reply
+👋 Hello! I'm Qorath Vexral. Press "Help" For Bot Commands.
+🥳 Vote The Bot So More People Will Know About It! Click "Vote Bot" To Start The Party!
+$image[https://top.gg/api/widget/1413166172538671288.svg]
+$addButton[no;help;Help;primary;no;ℹ️]
+$addButton[no;https://top.gg/bot/1413166172538671288;Vote Bot;link;no;]
+$endif
