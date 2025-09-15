@@ -1,0 +1,9 @@
+$nomention
+$httpGet[https://text.pollinations.ai/only+respond+with+numbers/price+of+$url[encode;$message]]
+$argsCheck[>1;Price Of What? Error Code: BOT_ARGS_ZERO]
+$onlyIf[$httpStatus!=502;Try Again! Error Code: HTTP_502]
+$onlyIf[$httpStatus!=400;Try Again! Error Code: HTTP_400]
+$title[Price Of $message]
+$description[$httpResult]
+$thumbnail[https://image.pollinations.ai/prompt/$message]
+$addField[WARNING;This might be Innacurate Information and may not be synced with real-time data. data Is limited to 2023 and before]
