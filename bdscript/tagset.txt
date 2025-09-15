@@ -1,0 +1,11 @@
+$c[Requires Variable "tag"]
+$c[Supports Slash Commands! Make a Text Option Named "tag"]
+
+$nomention
+$if[$isSlash]
+$setVar[tag;$message[tag];$authorID]
+Success! Succesfully Set Your Tag To $getVar[tag;$authorID]
+$else
+$setVar[tag;$message;$authorID]
+Success! Succesfully Set Your Tag To $getVar[tag;$authorID]
+$endif
