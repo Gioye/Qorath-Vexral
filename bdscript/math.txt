@@ -1,0 +1,6 @@
+$nomention
+$try
+  $calculate[$message]
+$catch
+  $stop
+$endtry
