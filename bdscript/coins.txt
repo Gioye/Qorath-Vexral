@@ -1,0 +1,4 @@
+$c[Requires Variable "Money": Set It To "0"]
+
+$nomention
+You have $getVar[Money;$authorID] Coins
