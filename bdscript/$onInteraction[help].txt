@@ -1,0 +1,29 @@
+qv!claimad - converts each AD coin to 30000 coins
+qv!daily - get 75 coins
+qv!coins - check how many coins you have
+qv!bet - lose 25 coins with a chance of receiving 300
+qv!cmdtoken - make a command token, required for qv!tokentest
+qv!tokentest <message> - test that token
+qv!8ball - I'm not paid enough to explain those commands
+qv!neko - neko image
+qv!say <message> - says what you said
+qv!tag set <message> - set your tag
+qv!tag show - show your tag
+qv!pastebin post <message> - posts your message to pastebin
+qv!pastebin get <url> - shows the text of a pastebin post
+qv!qrcode <message> - converts your text or URL to QR Code
+qv!imgtext <message> - Converts Text To Image (For AI Images use qv!image instead!)
+qv!mail <mention> <message> - DEPRECATED - Mails an User
+qv!2mail - BROKEN - Mails an User
+qv!nsfw - says if the channel is NSFW or not
+qv!friends <find/ask> - find Or ask for a friend
+qv!ban <userID/mention> - bans the target
+qv!kick <mention> - kicks the target
+qv!ticket <message> - if the server allows it, it will create a ticket
+qv!tickettoggle - enables or disables tickets
+qv!purge <Number> - purges an amount of messages
+
+-# Some Commands Can Only Be Ran If you have more than a specific amount of coins in the economy system or if enabled by another command or by the bot's owner]
+$addField[Bot Version;v1.8.5+]
+$addField[WARNING;This Is From The Open Source Code Of Qorath Vexral Bot. Some Commands Shown Here Might Not Be Usable.]
+$editButton[help;Read Above;primary;yes;]
