@@ -1,0 +1,7 @@
+$c[Requires Variable "Money": Set It To "0"]
+
+$nomention
+$cooldown[1d;❌️ Wait %time% To Get Daily Coins]
+$setVar[Money;$calculate[$getVar[Money;$authorID]+75];$authorID]
+✅️ You Claimed 75 Coins
+You now have $getVar[Money;$authorID] Coins
