@@ -1,0 +1,7 @@
+$color[#ff2052] 
+$nomention
+$cooldown[5s;`Please wait few seconds before using this command again.`]
+$title[✅ QR Code generated]
+$description[$message]
+$image[https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=$replaceText[$url[encode;$message]; ;%20;-1]]
+$argsCheck[>1;You can't create QR code without any text 👀 ]
