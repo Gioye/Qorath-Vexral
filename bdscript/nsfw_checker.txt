@@ -1,0 +1,2 @@
+$nomention
+Is <#$channelID> NSFW?: `$isNSFW[$channelID]`
