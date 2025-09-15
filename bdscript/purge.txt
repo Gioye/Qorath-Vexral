@@ -1,0 +1,16 @@
+$nomention 
+$deletecommand
+$try
+$clear[$message]
+$catch
+Please specify the number of messages to delete.
+$endtry
+$title[**Purge**]
+$color[#191919]
+$footer[$username - $authorID]
+$footerIcon[$authorAvatar]
+$thumbnail[$authorAvatar]
+$description[**$message messages have been deleted!**]
+$deleteIn[4]
+$addReactions[🤖]
+$onlyPerms[managemessages;You can't use this command!]
