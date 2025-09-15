@@ -1,0 +1,8 @@
+$c[This variable is created by Itself! Avoid modifying anything here.]
+
+$nomention
+$setVar[counter;$sum[$getVar[counter];1]]
+$title[Counter]
+$description[Counter value: $getVar[counter]]
+$footer[Increased by $nickname]
+$color[#673AB7]
