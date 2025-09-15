@@ -1,0 +1,14 @@
+$c[Supports Slash Commands! The Text Option Is Required And Can Be Named Anything]
+
+$nomention
+$ephemeral
+$defer
+$allowUserMentions[]
+$allowRoleMentions[]
+$if[$isSlash]
+$message
+$else
+$deleteMessage[$channelID;$messageID]
+$message
+-# Sent by <@$authorID>
+$endif
