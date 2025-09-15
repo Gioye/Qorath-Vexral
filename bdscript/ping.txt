@@ -1,0 +1,6 @@
+$nomention
+$botTyping
+$title[Pong! 🏓]
+$description[Success! ($pingms) 🏓]
+$footer[Took $pingms 🏓]
+$addTimestamp
