@@ -2,6 +2,26 @@
 Qorath Vexral is a do-it-all open source discord bot (https://dsc.gg/qorath)
 It might not be 100% open source, but atleast it mostly is.
 
+## BDScript
+This Is The Best Option For Qorath Vexral.
+🧱 Prerequisites
+- ✅ Downloading https://botdesignerdiscord.com/ (Required To Host The Bot!)
+- ✅ A Discord account
+- ✅ A Discord server where you have permission to add bots
+- ✅ Your bot token (from the Discord Developer Portal)
+
+You can also use the web app (https://app.botdesignerdiscord.com/), However you still need to download it to make the bot go online.
+
+All you need to do is:
+- Making a new BDScript 2 Bot
+- Creating a new command
+- Pasting the wanted code in that command
+- Creating a command trigger
+- Follow the instructions in the code's $c[] Code Block at the very top if there's one
+
+  And you're done. now watch some ADs in the app to get your bot online.
+
+
 ## Python
 Qorath Vexral No longer uses Python, but the Python code is still public.
 🧱 Prerequisites
