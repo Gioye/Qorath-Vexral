@@ -1,0 +1,9 @@
+$nomention
+$title[$serverName[$guildID]]
+$authorIcon[$serverIcon]
+$author[Server ID: $guildID]
+$thumbnail[$serverIcon]
+$description[$serverDescription]
+$addField[Members;This Server has $membersCount Members.]
+$addField[Boosts;This Server currently has $boostCount boost(s).]
+$addField[Tickets;Does This Server use Qorath Vexral's Ticket System (qv!ticket)? ***$getServerVar[AllowTicket]***]
