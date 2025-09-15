@@ -1,0 +1,9 @@
+$c[Supports Slash Commands! Requires Text Option "prompt"]
+
+$nomention
+$if[$isSlash==false]
+$image[https://image.pollinations.ai/prompt/$url[encode;$message]]
+$else
+$image[https://image.pollinations.ai/prompt/$url[encode;$message[prompt]]]
+$endif
+$addButton[no;https://top.gg/bot/1413166172538671288;Vote Bot;link;no;]
