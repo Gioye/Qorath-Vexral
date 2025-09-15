@@ -1,0 +1,8 @@
+$c[Supports Slash Commands! make a text option named "Text"]
+
+$nomention
+$if[$isSlash==true]
+$image[https://api.popcat.xyz/v2/couldread?text=$url[encode;$message[text]]]
+$else
+$image[https://api.popcat.xyz/v2/couldread?text=$url[encode;$message]]
+$endif
