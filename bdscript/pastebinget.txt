@@ -1,0 +1,6 @@
+$nomention
+$reply
+$allowUserMentions[]
+$allowRoleMentions[]
+$httpGet[$replaceText[$message;.com/;.com/raw/;1]]
+$httpResult
