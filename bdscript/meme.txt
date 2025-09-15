@@ -1,3 +1,5 @@
+$c[MUST be paired with $onInteraction[nextmeme]]
+
 $nomention
 Click "Next Meme" To Show a meme.
 $addButton[no;NextMeme;Next Meme;primary;no;]
