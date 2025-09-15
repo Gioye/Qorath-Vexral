@@ -1,0 +1,16 @@
+$c[Requires Variable "UsernameWantsFriends", set it to "discord"]
+$c[Supports Slash Commands! Requires Text Option "find_or_ask" when added as slash command.]
+
+$if[$message[find_or_ask]==find]
+Somebody whose username is `$getVar[UsernameWantsFriends]` Wants to be your friend!
+$elseif[$message[find_or_ask]==ask]
+$setVar[UsernameWantsFriends;$username]
+Now anyone who says "qv!friends find" will see your username until somebody says "qv!friends ask".
+$elseif[$message==find]
+Somebody whose username is `$getVar[UsernameWantsFriends]` Wants to be your friend!
+$elseif[$message==ask]
+$setVar[UsernameWantsFriends;$username]
+Now anyone who says "qv!friends find" will see your username until somebody says "qv!friends ask".
+$else
+Options: "find, ask"
+$endif
