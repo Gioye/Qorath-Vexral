@@ -1,0 +1,7 @@
+$nomention
+$title[8Ball!]
+$addReactions[🎱;🤔;😠]
+$color[32CD32]
+$footer[requested by $username]
+$description[$username has asked `$message?`
+$randomText[```yes```;```no```;```not sure```;```ask again```;```ask a friend```;```you know it```;```absolutely not```;```absolutely yes```;```can not tell```;```you are lazy```;```i am not an ai```]]
