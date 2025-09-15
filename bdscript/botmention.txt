@@ -1,0 +1,22 @@
+$c[SUPER IMPORTANT! This's Command's Trigger MUST Be <@BOT_ID>, Replace BOT_ID with the bot's user ID]
+
+$reply
+$if[$argCount[$noMentionMessage]>=1]
+$nomention
+$argsCheck[>1;❌]
+$reply
+$httpGet[https://text.pollinations.ai/$url[encode;$noMentionMessage]]
+$onlyIf[$httpStatus!=400;❌ The AI Doesn't Want To Answer.
+This can be because your message Is Inappropiate or There was an error.]
+$onlyIf[$httpStatus!=502;❌ Try Again!]
+$httpResult
+$addButton[no;https://top.gg/bot/1413166172538671288;Vote Bot;link;no;]
+$else
+$nomention
+$reply
+👋 Hello! I'm Qorath Vexral. Press "Help" For Bot Commands.
+🥳 Vote The Bot So More People Will Know About It! Click "Vote Bot" To Start The Party!
+$image[https://top.gg/api/widget/1413166172538671288.svg]
+$addButton[no;help;Help;primary;no;ℹ️]
+$addButton[no;https://top.gg/bot/1413166172538671288;Vote Bot;link;no;]
+$endif
