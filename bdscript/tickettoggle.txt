@@ -1,0 +1,8 @@
+$nomention
+$onlyAdmin[:x: Restricted Command]
+$if[$getServerVar[AllowTicket]==false]
+$setServerVar[AllowTicket;true]
+$else
+$setServerVar[AllowTicket;false]
+$endif
+### Are the tickets enabled after running this command? $getServerVar[AllowTicket]
