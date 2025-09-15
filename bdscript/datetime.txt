@@ -1,0 +1,9 @@
+$nomention
+$argsCheck[1;❌ You must type a timezone for the command to work! Timezones are in the format of "Europe/Rome" (Continent/City) And Instead Of Spaces Use "_"]
+$try
+$time[$message]
+$date
+$hour:$minute:$second
+$catch
+❌ Invalid Timezone
+$endtry
