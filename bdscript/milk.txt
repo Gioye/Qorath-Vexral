@@ -1,0 +1,10 @@
+$nomention
+$setVar[Cow;$sum[$getVar[Cow];1]]
+$title[Milk The Cow!]
+$author[Milk It!]
+$authorIcon[https://image.pollinations.ai/prompt/$url[encode;$getVar[Cow] cows]]
+$thumbnail[https://image.pollinations.ai/prompt/$url[encode;cow next to $getVar[Cow] glass bottles of milk]]
+$description[Milk: $getVar[Cow] Liters]
+$footer[Increased by $nickname]
+$color[#673AB7]
+$addButton[no;https://top.gg/bot/1413166172538671288;Vote Bot;link;no;]
