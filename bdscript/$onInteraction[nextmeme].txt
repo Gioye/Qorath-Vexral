@@ -1,0 +1,14 @@
+$c[MUST be paired with MEME]
+
+$nomention
+$reply
+$defer
+$ephemeral
+$color[#fcfffd]
+$httpGet[https://meme-api.com/gimme]
+$title[ Memes]
+$embeddedURL[$httpResult[postLink]]
+$footer[$username[$authorID]]
+$footerIcon[$authorAvatar]
+$image[$httpResult[url]]
+$addTimestamp
