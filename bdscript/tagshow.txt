@@ -1,0 +1,6 @@
+$c[Requires Variable "tag"]
+
+$nomention
+$reply
+$getVar[tag;$authorID]
+-# Tag By <@$authorID>
