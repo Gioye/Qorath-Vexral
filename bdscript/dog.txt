@@ -1,0 +1,5 @@
+$nomention
+$defer
+$httpGet[https://dog.ceo/api/breeds/image/random/]
+$var[Doggy;$httpResult[message]]
+🐶 Here's a random dog for you! $image[$var[Doggy]]
