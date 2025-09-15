@@ -1,0 +1,6 @@
+$nomention
+$onlyIf[$getServerVar[AllowTicket]==true;❌ Tickets Disabled! If You're an Admin, Enable/Disable Tickets by using qv!tickettoggle
+You must also give the bot the "Manage Channels" permission!]
+$newTicket[Tickets;No subject was provided.;Thanks for making a ticket. Please explain your issue in detail so we can help.
+Subject: {subject}
+User: <@$authorID>;Created ticket! {channel};Failed to make ticket! Give me the "Manage Channels" permission!]
