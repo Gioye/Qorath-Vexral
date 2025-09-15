@@ -1,0 +1,7 @@
+$nomention
+$if[$isAdmin[$authorID]]
+$kickMention
+<@$mentioned[1]> was kicked!
+$else
+❌ Nice try!
+$endif
