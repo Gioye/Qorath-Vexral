@@ -1,0 +1,3 @@
+$nomention
+$image[https://image.pollinations.ai/prompt/$url[encode;$nickname logo]?nologo=true]
+$footer[By pollinations.ai]
