@@ -1,0 +1,9 @@
+$nomention
+$botTyping
+$title[Uptime]
+$var[uptime;$replaceText[$replaceText[$replaceText[$uptime;:; Hours ;1];:; Minutes ;1];:; Seconds ;1]]
+$addField[Uptime;$var[uptime]]
+$addField[Expiration Date;$hostingExpireTime
+-# The Expiration Date Is When The Bot Goes Offline.
+-# The Date Might Change]
+$addTimestamp
