@@ -1,0 +1,4 @@
+$nomention
+Click "Next Meme" To Show a meme.
+$addButton[no;NextMeme;Next Meme;primary;no;]
+$addButton[no;https://top.gg/bot/1413166172538671288;Vote Bot;link;no;]
