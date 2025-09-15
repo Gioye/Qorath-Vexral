@@ -1,0 +1,8 @@
+$nomention
+$onlyIf[$repliedMessageID!=;❌ Incorrect Usage!]
+$reply
+$httpGet[https://text.pollinations.ai/$url[encode;$getMessage[$channelID;$repliedMessageID]]]
+$onlyIf[$httpStatus!=400;❌ The AI Doesn't Want To Answer.
+This can be because your message Is Inappropiate or There was an error.]
+$onlyIf[$httpStatus!=502;❌ Try Again!]
+$httpResult
