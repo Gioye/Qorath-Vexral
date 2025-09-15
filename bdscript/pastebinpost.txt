@@ -1,0 +1,7 @@
+$c[https://pastebin.com/ Replae GET_YOUR_OWN_KEY with the API key from the API of Pastebin!]
+
+$nomention
+$reply
+$httpAddHeader[content-type;application/x-www-form-urlencoded]
+$httpPost[https://pastebin.com/api/api_post.php;api_dev_key=GET_YOUR_OWN_KEY&api_paste_code=$url[encode;$message]&api_option=paste&api_paste_name=$url[encode;Made By $nickname]]
+$httpResult
