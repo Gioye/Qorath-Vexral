@@ -1,0 +1,7 @@
+$nomention
+$reply
+$httpGet[https://text.pollinations.ai/$url[encode;Generate A Random Story with the Number $optOff[$random $random $random], and NOT about Lily, make a new one]]
+$onlyIf[$httpStatus!=400;❌ The AI Doesn't Want To Answer.
+This can be because your message Is Inappropiate or There was an error.]
+$onlyIf[$httpStatus!=502;❌ Try Again!]
+$httpResult
