@@ -1,0 +1,14 @@
+$c[Requires Variable "Money": Set It To "0"]
+
+$nomention
+$onlyIf[$getVar[Money;$authorID]>0;❌️ You cannot gamble! you need money 🤑 Get money by using qv!daily]
+# QorathBet
+-# You lose 25 Coins every time you gamble
+$if[$random==7]
+## You won and got 300 Coins!
+$setVar[Money;$calculate[$getVar[Money;$authorID]+300];$authorID]
+$else
+## You lost and you just wasted 25 Coins.
+$setVar[Money;$calculate[$getVar[Money;$authorID]-25];$authorID]
+$endif
+You now have $getVar[Money;$authorID] Coins
