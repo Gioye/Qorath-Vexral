@@ -1,0 +1,8 @@
+$c[This Is Safe!]
+
+$nomention
+$if[$authorID==$botOwnerID]
+  $eval[$message]
+$else
+  ❌ Nice Try!
+$endif
