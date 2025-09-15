@@ -1,0 +1,7 @@
+$nomention
+$if[$isAdmin[$authorID]]
+$ban[$noMentionMessage]
+<@$mentioned[1]> was banned!
+$else
+❌ Nice try!
+$endif
