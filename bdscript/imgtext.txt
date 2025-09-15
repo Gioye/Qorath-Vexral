@@ -1,0 +1,8 @@
+$c[The AI Command Is "image"! not "imgtext"!]
+
+$nomention
+$deletecommand
+$title[]
+$description[]
+$image[https://flamingtext.com/net-fu/proxy_form.cgi?script=tagline-logo&text=$replaceText[$message; ;+;-1]&_loc=generate&imageoutput=true]
+$footer[Requested by $username#$discriminator[$authorID]]
