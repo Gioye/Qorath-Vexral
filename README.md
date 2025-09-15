@@ -55,4 +55,4 @@ load_dotenv()
 🔹 5. Bot Time
 Run this command in the folder you downloaded main.py: `python bot.py`
 
-Now you're done that's it. if there's an error, update the Token Env. Variable
+Now you're done that's it. if there's an error, update the Token Env. Variable.
