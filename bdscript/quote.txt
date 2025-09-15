@@ -1,0 +1,15 @@
+$c[Even through supporting slash commands,avoid making this a slash command]
+
+$nomention
+$if[$isSlash==false]
+$argsCheck[>2;Please provide a channel and message ID! Usage: `qv!quote (channel) (messageID)`]
+$description[$getMessage[$findChannel[$message[1]];$message[2]]]
+$color[#673ab7]
+$authorIcon[$getMessage[$findChannel[$message[1]];$message[2];avatar]]
+$author[$getMessage[$findChannel[$message[1]];$message[2];username]#$discriminator[$getMessage[$findChannel[$message[1]];$message[2];authorID]]]
+$else
+$description[$getMessage[$findChannel[$message[channel]];$message[messageid]]]
+$color[#673ab7]
+$authorIcon[$getMessage[$findChannel[$message[channel]];$message[messageid];avatar]]
+$author[$getMessage[$findChannel[$message[channel]];$message[messageid];username]#$discriminator[$getMessage[$findChannel[$message[channel]];$message[messageid];authorID]]]
+$endif
