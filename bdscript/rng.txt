@@ -1,0 +1,7 @@
+$nomention
+$title[**Random Number Generator**]
+$description[You got $random[0;1000].]
+$footer[Ran by $username]
+$color[#fffff]
+$addTimestamp
+$footerIcon[$authorAvatar]
