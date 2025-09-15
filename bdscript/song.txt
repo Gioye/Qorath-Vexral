@@ -1,0 +1,14 @@
+$c[Supports Slash Commands, Make A Text Option With Any Name]
+
+$nomention
+$reply
+$if[$isSlash==false]
+$httpGet[https://api.sv443.net/geniurl/search?q=$url[encode;$message]&disableFuzzy]
+$else
+$httpGet[https://api.sv443.net/geniurl/search?q=$url[encode;$message]&disableFuzzy]
+$endif 
+$onlyIf[$httpResult[error]==false;❌️ Failed!]
+$title[🥳 Song(s) Found!]
+$addField[Song Name(s);$httpResult[top;meta;fullTitle]]
+$footer[You did it!]
+$addTimestamp
