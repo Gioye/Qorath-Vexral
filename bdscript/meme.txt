@@ -1,4 +1,4 @@
-$c[MUST be paired with $onInteraction[nextmeme]]
+$c[MUST be paired with $onInteraction[NextMeme]]
 
 $nomention
 Click "Next Meme" To Show a meme.
