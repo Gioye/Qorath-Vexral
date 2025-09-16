@@ -1,0 +1,5 @@
+$nomention
+I've got a captcha!
+$httpGet[https://wowcaptcha.netlify.app/]
+$image[$httpResult[captcha]]
+The Captcha Is ||**$httpResult[correct]**||!
