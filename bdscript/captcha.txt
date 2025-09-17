@@ -1,5 +1,5 @@
 $nomention
 I've got a captcha!
-$httpGet[https://captcha.js.org/api/]
+$httpGet[https://wowcaptcha.netlify.app/api/]
 $image[$httpResult[captcha]]
 The Captcha Is ||**$httpResult[correct]**||!
