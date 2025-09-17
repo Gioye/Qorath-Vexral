@@ -1,6 +1,7 @@
 # Qorath Vexral
 Qorath Vexral is a do-it-all open source discord bot (https://dsc.gg/qorath)
 It might not be 100% open source, but atleast it mostly is.
+All pull requests merged here will update the bot (excluding Python pull requests)
 
 ## BDScript
 This Is The Best Option For Qorath Vexral.
